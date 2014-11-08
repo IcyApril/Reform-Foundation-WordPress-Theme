@@ -61,7 +61,7 @@ Template Name: Homepage
 
 										<header>
 
-											<div class="page-header"><h1 class="h2"><a href="<?php echo get_post_permalink($recent['ID']) ?> ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php echo $recent['post_title']; ?></a></h1></div>
+											<div class="page-header"><h1 class="h2"><a href="<?php echo get_post_permalink($recent['ID']) ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php echo $recent['post_title']; ?></a></h1></div>
 
 											<p class="meta"><?php _e("Posted", "wpbootstrap"); ?> <time datetime="<?php echo get_the_time('Y-m-j', $recent['ID']); ?>" pubdate><?php echo get_the_date('F jS, Y', $recent['ID'],'', FALSE); ?></time> <?php _e("by", "wpbootstrap"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "wpbootstrap"); ?> <?php the_category(', ', '', $recent['ID']); ?>.</p>
 

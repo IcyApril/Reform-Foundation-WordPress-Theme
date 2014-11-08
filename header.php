@@ -34,6 +34,7 @@
 
 
 		<!-- Icons -->
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/icons/favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/icons/apple-touch-icon.png" />
 		<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/icons/apple-touch-icon-57x57.png" />
 		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/icons/apple-touch-icon-72x72.png" />
